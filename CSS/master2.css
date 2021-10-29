@@ -1,0 +1,14 @@
+/* class */
+.firstdiv{
+  color: blue;
+}
+
+.seconddiv{
+  background :pink;
+  color: red;
+}
+
+/* id */
+#singlePar{
+  color: green;
+}

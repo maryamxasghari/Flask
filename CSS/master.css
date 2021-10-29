@@ -13,3 +13,27 @@ p{
 h4{
   color: rgba(13,90,140,0.3);
 }
+ body{
+   background: lightblue;
+ }
+
+/* image background */
+ /* body{
+   background: url(../images);
+   background-repeat: no-repeat;
+
+ } */
+
+div{
+  background :blue;
+  border: red 10px dashed;
+  /* border: orange;
+  /* border-width: medium; */
+  /* border-width: 5px;
+  border-style: solid; */ */
+}
+
+span{
+  background :red;
+  color :white;
+}
