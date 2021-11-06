@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1> Welcome to {{name}} website!</h1>
+    <h2> Here is a pic </h2>
+    <h2> First user : {{name_list['name']}} </h2>
+    <h2> Name start with : {{letters[0]}} </h2>
+    <ul>
+      {% for item in my_list %}
+      <li>{{item}}</li>
+      {% endfor %}
+    </ul>
+
+    {%if 2 in my_list %}
+      <p> 2 is in the list</p>
+    {% else %}
+      <p> 2 is not in the list</p>
+    {% endif %}
+
+
+    {%if user_logged_in %}
+      <p> Wlcome back, you are now logged in!</p>
+    {% else %}
+      <p>Plase log in!</p>
+    {% endif %}
+
+    <img src="../static/img.jpg" alt="" width =500>
+  </body>
+</html>
